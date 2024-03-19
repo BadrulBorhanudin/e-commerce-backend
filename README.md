@@ -46,7 +46,7 @@ The following animation shows the application's POST, PUT, and DELETE routes for
 
 ![In Insomnia, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
 
-My [walkthrough video](https://1drv.ms/v/s!AhjTQobLPW72rkGJDcCwTdJitj4d?e=PTGT9v) should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
+My [walkthrough video](https://1drv.ms/v/s!AhjTQobLPW72rkLb79BrlQM7Eb2S) should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
 
 ## How to Use It?
 
@@ -58,108 +58,108 @@ Use the `schema.sql` file in the `db` folder to create your database with MySQL 
 
 My database should contain the following four models, including the requirements listed for each model:
 
-* `Category`
+- `Category`
 
-  * `id`
+  - `id`
 
-    * Integer.
-  
-    * Doesn't allow null values.
-  
-    * Set as primary key.
-  
-    * Uses auto increment.
+    - Integer.
 
-  * `category_name`
-  
-    * String.
-  
-    * Doesn't allow null values.
+    - Doesn't allow null values.
 
-* `Product`
+    - Set as primary key.
 
-  * `id`
-  
-    * Integer.
-  
-    * Doesn't allow null values.
-  
-    * Set as primary key.
-  
-    * Uses auto increment.
+    - Uses auto increment.
 
-  * `product_name`
-  
-    * String.
-  
-    * Doesn't allow null values.
+  - `category_name`
 
-  * `price`
-  
-    * Decimal.
-  
-    * Doesn't allow null values.
-  
-    * Validates that the value is a decimal.
+    - String.
 
-  * `stock`
-  
-    * Integer.
-  
-    * Doesn't allow null values.
-  
-    * Set a default value of `10`.
-  
-    * Validates that the value is numeric.
+    - Doesn't allow null values.
 
-  * `category_id`
-  
-    * Integer.
-  
-    * References the `Category` model's `id`.
+- `Product`
 
-* `Tag`
+  - `id`
 
-  * `id`
-  
-    * Integer.
-  
-    * Doesn't allow null values.
-  
-    * Set as primary key.
-  
-    * Uses auto increment.
+    - Integer.
 
-  * `tag_name`
-  
-    * String.
+    - Doesn't allow null values.
 
-* `ProductTag`
+    - Set as primary key.
 
-  * `id`
+    - Uses auto increment.
 
-    * Integer.
+  - `product_name`
 
-    * Doesn't allow null values.
+    - String.
 
-    * Set as primary key.
+    - Doesn't allow null values.
 
-    * Uses auto increment.
+  - `price`
 
-  * `product_id`
+    - Decimal.
 
-    * Integer.
+    - Doesn't allow null values.
 
-    * References the `Product` model's `id`.
+    - Validates that the value is a decimal.
 
-  * `tag_id`
+  - `stock`
 
-    * Integer.
+    - Integer.
 
-    * References the `Tag` model's `id`.
+    - Doesn't allow null values.
+
+    - Set a default value of `10`.
+
+    - Validates that the value is numeric.
+
+  - `category_id`
+
+    - Integer.
+
+    - References the `Category` model's `id`.
+
+- `Tag`
+
+  - `id`
+
+    - Integer.
+
+    - Doesn't allow null values.
+
+    - Set as primary key.
+
+    - Uses auto increment.
+
+  - `tag_name`
+
+    - String.
+
+- `ProductTag`
+
+  - `id`
+
+    - Integer.
+
+    - Doesn't allow null values.
+
+    - Set as primary key.
+
+    - Uses auto increment.
+
+  - `product_id`
+
+    - Integer.
+
+    - References the `Product` model's `id`.
+
+  - `tag_id`
+
+    - Integer.
+
+    - References the `Tag` model's `id`.
 
 ## Notes
 
-* [The URL of the walkthrough video of the application.](https://1drv.ms/v/s!AhjTQobLPW72rkGJDcCwTdJitj4d?e=PTGT9v)
+- [The URL of the walkthrough video of the application.](https://1drv.ms/v/s!AhjTQobLPW72rkLb79BrlQM7Eb2S)
 
-* [The URL of the GitHub repository, with a unique name and a README describing the project.](https://github.com/BadrulBorhanudin/e-commerce-backend)
+- [The URL of the GitHub repository, with a unique name and a README describing the project.](https://github.com/BadrulBorhanudin/e-commerce-backend)
