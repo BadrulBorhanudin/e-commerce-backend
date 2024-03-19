@@ -46,7 +46,7 @@ The following animation shows the application's POST, PUT, and DELETE routes for
 
 ![In Insomnia, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
 
-My walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
+My [walkthrough video](https://1drv.ms/v/s!AhjTQobLPW72rkGJDcCwTdJitj4d?e=PTGT9v) should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
 
 ## How to Use It?
 
@@ -160,6 +160,6 @@ My database should contain the following four models, including the requirements
 
 ## Notes
 
-* [The URL of the walkthrough video of the application.]()
+* [The URL of the walkthrough video of the application.](https://1drv.ms/v/s!AhjTQobLPW72rkGJDcCwTdJitj4d?e=PTGT9v)
 
 * [The URL of the GitHub repository, with a unique name and a README describing the project.](https://github.com/BadrulBorhanudin/e-commerce-backend)
